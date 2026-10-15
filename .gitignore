@@ -1,0 +1,30 @@
+# Entorno virtual de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de caché y temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Archivos comprimidos y modelos de entrenamiento pesado (no necesarios en web)
+*.rar
+*.zip
+*.tar.gz
+*.h5
+*.keras
+
+# Logs y TensorBoard
+logs/
+logs-new/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Subcarpeta redundante de la extracción original
+Nueva carpeta/
